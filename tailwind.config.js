@@ -9,6 +9,7 @@ export default {
         caveat: ['Caveat'],
         script: ['Dancing Script'],
         roboto: ['Roboto'],
+        updock: ['Updock'],
       }
     },
   },

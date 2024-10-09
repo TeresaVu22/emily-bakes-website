@@ -8,8 +8,8 @@ function App() {
   return (
     <>
       <NavBar />
-      <Login />
-      <SingUp />
+      {/* <Login />
+      <SingUp /> */}
       <div>
         <div className=" h-dvh gap-16 flex justify-center items-center font-slim text-4xl">
           <img src={Cake1} className=" h-4/5" alt="Cake1" />
@@ -30,6 +30,10 @@ function App() {
                 <div>
                   (713) 555-7890
                 </div>
+              </div>
+              <div className='px-4 pt-2 cursor-pointer text-black-500 
+                        hover:scale-105 duration-200 hover:text-red-500 z-10 font-updock border border-black rounded-xl'>
+                          Make a Cake
               </div>
             </div>
           <img src={Cake2} alt="Cake2" className=" h-4/5" />
