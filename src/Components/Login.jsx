@@ -34,6 +34,11 @@ const Login = () => {
               Submit
             </button>
           </div>
+          <div className="text-xl text-gray-500 mt-2 text-center">-or-</div>
+          <div className='px-4 pt-1 pb-1 cursor-pointer text-black-500 text-center
+                        hover:scale-105 duration-200 hover:text-red-500 z-10 border border-black rounded-xl mx-32'>
+                          Sign Up
+              </div>
         </form>
       </div>
     </div>
