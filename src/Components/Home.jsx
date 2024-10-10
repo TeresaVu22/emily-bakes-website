@@ -9,8 +9,8 @@ const Home = () => {
     return (
         <>
         <NavBar />
-        {/* <Login />
-        <SingUp /> */}
+        <Login />
+        {/* <SingUp /> */}
         <div>
           <div className=" h-dvh gap-16 flex justify-center items-center font-slim text-4xl">
             <img src={Cake1} className=" h-4/5" alt="Cake1" />

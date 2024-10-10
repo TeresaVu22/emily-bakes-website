@@ -34,11 +34,10 @@ const Login = () => {
               Submit
             </button>
           </div>
-          <div className="text-xl text-gray-500 mt-2 text-center">-or-</div>
-          <div className='px-4 pt-1 pb-1 cursor-pointer text-black-500 text-center
-                        hover:scale-105 duration-200 hover:text-red-500 z-10 border border-black rounded-xl mx-32'>
-                          Sign Up
-              </div>
+          <div className='mt-8 flex justify-center items-center'>
+            <p className='font-medium text-base'>Don't have an account?</p>
+            <button className='text-blue-500 text-sm font-medium ml-2'>Sign Up</button>
+          </div>
         </form>
       </div>
     </div>
