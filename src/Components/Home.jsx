@@ -3,14 +3,14 @@ import Cake1 from '../../public/cake1.jpg'
 import Cake2 from '../../public/cake2.jpg'
 import Cake3 from '../../public/cake3.jpg'
 import Login from "./Login"
-import SingUp from "./SignUp"
+import SignUp from "./SignUp"
 
 const Home = () => {
     return (
         <>
         <NavBar />
-        <Login />
-        {/* <SingUp /> */}
+        {/* <Login /> */}
+        {/* <SignUp /> */}
         <div>
           <div className=" h-dvh gap-16 flex justify-center items-center font-slim text-4xl">
             <img src={Cake1} className=" h-4/5" alt="Cake1" />

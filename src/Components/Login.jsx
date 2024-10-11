@@ -10,7 +10,7 @@ const Login = () => {
       {/* Form container */}
       <div className="relative max-w-md w-full mx-auto mt-4 bg-white p-8 border border-gray-300 opacity-90 rounded-lg"
            style={{ top: '50%', transform: 'translateY(-50%)' }}>
-           <div className="text-3xl font-bold text-gray-900 mt-2 text-center">Login</div>
+           <div className="text-3xl font-bold text-gray-900 mt-2 mb-10 text-center">Welcome Back</div>
         <form action="" className="space-y-6">
           <div>
             <label htmlFor="" className="text-sm font-bold text-gray-600 block">Email</label>
